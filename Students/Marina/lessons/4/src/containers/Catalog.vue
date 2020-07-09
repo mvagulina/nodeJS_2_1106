@@ -10,7 +10,6 @@ import item from '../components/Item.vue'
 
 export default {
     components: { item },
-    // components: { catalogItem },
     data() {
         return {
             items: [],

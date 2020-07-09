@@ -31,7 +31,6 @@ export default {
         user._id = res._id;
         user.login = res.login;
         user.password = res.password;
-console.log(`sign ${user}`)
         this.$router.push(`/${res._id}`)
       });
     },
